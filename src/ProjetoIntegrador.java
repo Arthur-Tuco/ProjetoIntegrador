@@ -165,7 +165,7 @@ public class ProjetoIntegrador {
         return contatos;
     }
 
-    // ========== FUNÇÕES DE CARREGAMENTO DE DADOS (CSV) ==========
+    // ========== CSV DO PROFESSOR ==========
 
     private static String[][] carregarClientesCSV() {
         String arquivo = "clientes.csv";
@@ -581,7 +581,7 @@ public class ProjetoIntegrador {
         System.out.println("============================================");
     }
 
-    // ========== FUNÇÕES DE MANIPULAÇÃO DE MATRIZES E ORDENAÇÃO ==========
+    // ========== MANIPULAÇÃO DE MATRIZES E ORDENAÇÃO ==========
 
     private static String[][] aumentarMatrizClientes(String[][] matrizClientes) {
         String[][] novaMatriz = new String[matrizClientes.length + 1][8];
